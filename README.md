@@ -1,18 +1,18 @@
 # Gotham.cash Frontend
 
-> Official frontend interface for the Gotham.cash on-chain mixer protocol.
+> Official frontend interface for the bindows.cash on-chain mixer protocol.
 
 ---
 
 ## 🧩 About
 
-Gotham.cash is a decentralized, non-custodial privacy protocol that enables anonymous transfers of assets across EVM-compatible blockchains. Inspired by the principles of Tornado Cash but simplified for practical use, it uses cryptographic commitments (SHA-256 + Keccak256) to unlink deposit and withdrawal actions.
+Bindows.cash is a decentralized, non-custodial privacy protocol that enables anonymous transfers of assets across BSC. Inspired by the principles of Tornado Cash but simplified for practical use, it uses cryptographic commitments (SHA-256 + Keccak256) to unlink deposit and withdrawal actions.
 
 - No upgradeability
 - No self-destruct
 - No pause/ownership
 - Off-chain commitment generation
-- 1% fee on withdrawal only
+- 1% fee on withdrawal only, funding 50% of the $BINDOWS staking pool
 - Fully client-side architecture
 
 This frontend allows users to interact with fixed-amount mixer pools, generate deposit commitments off-chain, and withdraw funds using a signed proof to prevent frontrunning or theft.
@@ -35,14 +35,14 @@ This frontend allows users to interact with fixed-amount mixer pools, generate d
 The frontend is fully static and can be deployed on any web host (GitHub Pages, Vercel, Namecheap, etc.).
 This simplicity helps to enhance resilience and prevent censorship, builds trust and helps auditability.
 Deploying your own front-end allows you to eliminate any third-party dependency and maximize anonymity (if run locally, your IP and Browser data are hidden).
-Also, if for any reason the main gotham.cash domain is down or suspended, users can still access the mixer and use the pools.
+Also, if for any reason the main bindows.cash domain is down or suspended, users can still access the mixer and use the pools.
 Multiplying the mirrors reinforces the project's trustless & permissionless philosophy, making it fully decentralized.
-⚠️ Always verify that the mirror you are using is up-to-date to the current version, as some people may deploy a malicious version to steal your funds. The official deployment on gotham.cash domain is the reference.
+⚠️ Always verify that the mirror you are using is up-to-date to the current version, as some people may deploy malicious versions to steal your funds. The official deployment on bindows.cash domain is the reference.
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gotham-cash/frontend.git
+git clone https://github.com/bindowscash/frontend.git
 cd frontend
 ```
 
@@ -92,7 +92,7 @@ Full address list available in /src/constants/addresses.js or in our contracts r
 
 📜 Disclaimer
 
-Gotham.cash is a permissionless, privacy-focused protocol. It does not monitor or control user activity.
+Bindows.cash is a permissionless, privacy-focused protocol. It does not monitor or control user activity.
 Even if your personal data are not stored (IP, notes, browser data, login times...), you are responsible of your own use of the dApp, make sure that you have a good OPSEC (VPN, TOR, proxies, delay between deposit/withdrawal...)
 
 - Use at your own risk.
@@ -106,8 +106,8 @@ We do not provide custodial services, KYC, or compliance checks.
 
 📫 Contact & Links
 
-- Website: https://gotham.cash
-- Docs: https://gothamcash.gitbook.io
-- GitHub: https://github.com/gotham-cash
-- Telegram: https://t.me/gotham_cash
-- Twitter/X: https://x.com/gothamcash
+- Website: https://bindows.cash
+- Docs: https://bindowscash.gitbook.io
+- GitHub: https://github.com/bindowscash
+- Telegram: https://t.me/bindowscash
+- Twitter/X: https://x.com/bindowscash
